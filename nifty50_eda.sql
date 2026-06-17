@@ -56,3 +56,13 @@ SELECT symbol, year, annual_vol,
        LAG(annual_vol) OVER (PARTITION BY symbol ORDER BY year) AS prev_year_vol
 FROM yearly_vol
 ORDER BY symbol, year;
+
+CREATE VIEW yearly_rank AS
+WITH yearly_returns AS (
+    SELECT symbol, EXTRACT(YEAR FROM date) AS year, AVG(daily_return) * 252 AS approx_annual_return
+    FROM stock_prices
+    GROUP BY symbol, year
+)
+SELECT symbol, year, approx_annual_return,
+       RANK() OVER (PARTITION BY year ORDER BY approx_annual_return DESC) AS rank_in_year
+FROM yearly_returns;
