@@ -26,7 +26,7 @@ Python: Pandas, NumPy, Matplotlib, Seaborn, Plotly, data cleaning, financial ret
 ### Results & Business Recommendation:
 Pharma and consumer-facing names led the risk-adjusted leaderboard — Divi's Laboratories, Sun Pharma, Apollo Hospitals, Britannia, and Asian Paints all delivered strong returns at comparatively low volatility (16-23% annualized), while several banks and industrials further down the list carried volatility above 40% for similar or even lower returns.
 
-![Risk-Return Leaderboard](image.png)
+<img width="1012" height="528" alt="Image" src="https://github.com/user-attachments/assets/713951f6-f700-4f59-829d-1d8fb5781f2c" />
 
 
 Correlation across the 50 stocks stayed mostly in a light-to-moderate range rather than clustering near 1, suggesting real diversification benefit to holding a broad basket rather than concentrating in a handful of names.
