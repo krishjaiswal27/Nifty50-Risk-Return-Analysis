@@ -19,9 +19,9 @@ An investor or analyst trying to build a long-term Nifty 50 allocation needs mor
 5. Connected Power BI directly to the PostgreSQL database and built a multi-page interactive dashboard, letting a viewer filter by years of listed history and drill into any individual stock's price trend.
 
 ### Skills:
-SQL: CTEs, Joins, Window functions (RANK, LAG), Views, aggregate functions
-Power BI: DAX measures and calculated columns, data modeling and relationships, conditional formatting, interactive slicers and cross-filtering, dashboard design
-Python: Pandas, NumPy, Matplotlib, Seaborn, Plotly, data cleaning, financial return/risk calculations, exploratory data analysis
+SQL: CTEs, Joins, Window functions (RANK, LAG), Views, aggregate functions.
+Power BI: DAX measures and calculated columns, data modeling and relationships, conditional formatting, interactive slicers and cross-filtering, dashboard design.
+Python: Pandas, NumPy, Matplotlib, Seaborn, Plotly, data cleaning, financial return/risk calculations, exploratory data analysis.
 
 ### Results & Business Recommendation:
 Pharma and consumer-facing names led the risk-adjusted leaderboard — Divi's Laboratories, Sun Pharma, Apollo Hospitals, Britannia, and Asian Paints all delivered strong returns at comparatively low volatility (16-23% annualized), while several banks and industrials further down the list carried volatility above 40% for similar or even lower returns.
