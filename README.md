@@ -31,7 +31,7 @@ Pharma and consumer-facing names led the risk-adjusted leaderboard — Divi's La
 
 Correlation across the 50 stocks stayed mostly in a light-to-moderate range rather than clustering near 1, suggesting real diversification benefit to holding a broad basket rather than concentrating in a handful of names.
 
-![Correlation Matrix](download.png)
+<img width="1151" height="1053" alt="Image" src="https://github.com/user-attachments/assets/c660c575-d7e4-40aa-9ee7-34f98afdf93c" />
 
 For anyone using this analysis to inform a long-term Nifty 50 allocation, a few things stand out:
 1. Risk-adjusted return is a more useful lens than headline return — several of the highest-volatility stocks didn't deliver proportionally higher return for the risk taken on.
